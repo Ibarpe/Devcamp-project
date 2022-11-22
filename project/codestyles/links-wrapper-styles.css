@@ -1,0 +1,128 @@
+/* links-wrapper styles */
+.links-wrapper {
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-wrapper > .logo-wrapper {
+    height: 100%;
+    margin-right: 15px;
+    margin-left: 35px;
+    align-items: center;
+}
+
+.logo-wrapper img {
+    width: 265px;
+    height: 50px;
+    margin-top: 36px;
+}
+
+.navigation-wrapper {
+    height: 100px;
+    grid-template-columns: 1fr;
+    display: grid;
+    margin-top: 15px;
+    margin-right: 195px;
+}
+
+.navigation-wrapper > span {
+    color: rgb(243, 227, 139);
+    margin-top: 16px;
+    font-size: 1.4em;
+    font-family: 'Archivo Black', sans-serif;
+    margin-left: 55px;
+}
+
+.navigation-wrapper > .navigation-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 35px;
+    height: 50px;
+}
+
+.navigation-links > .nav-link {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.navigation-links  #separation {
+    margin-left: 50px;
+}
+
+.navigation-links > .nav-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.9em;
+    font-family: 'leto', sans-serif;
+    font-weight: bolder;
+}
+
+.navigation-links > .nav-link #spark {
+    font-size: 1.7rem;
+    color: rgb(163, 159, 159);
+}
+
+.navigation-links > .spark-icon {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+.navigation-links > .spark-icon i {
+    color: rgb(201, 196, 196);
+    font-size: 1.4em;
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 677px;
+}
+
+.login-wrapper > .login-link, .search-wrapper {
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.login-link > .create-box {
+    display: flex;
+    background-color: rgb(54, 54, 59);
+    border-radius: 5px;
+    width: 200px;
+}
+
+.login-link > .create-box a {
+    padding-right: 0px 15px;
+    
+}
+
+.login-link > .create-box i {
+    color: rgb(76, 190, 118);
+    margin-left: -25px;
+    margin-top: 28px;
+    font-size: 1.6rem;
+}
+
+.login-link a {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: rgb(54, 54, 59);
+    text-decoration: none;
+    font-size: 1.6rem;
+    display: inline-block;
+    padding: 27px 38px;
+    border-radius: 5px;
+}
+
+.search-wrapper i {
+    color: rgb(124, 124, 134);
+    text-decoration: none;
+    font-size: 3rem;
+    display: inline-block;
+    padding: 27px 18px;
+}
